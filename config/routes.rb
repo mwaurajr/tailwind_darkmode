@@ -1,4 +1,3 @@
 Rails.application.routes.draw do
-  root 'static/index'
-
+  root "static#index"
 end
